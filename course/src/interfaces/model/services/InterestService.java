@@ -1,4 +1,4 @@
-package interfaces.model.service;
+package interfaces.model.services;
 
 import java.security.InvalidParameterException;
 

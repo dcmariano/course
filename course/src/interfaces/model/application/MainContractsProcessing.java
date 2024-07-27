@@ -6,8 +6,8 @@ import java.util.Scanner;
 
 import interfaces.model.entities.Contract;
 import interfaces.model.entities.Installment;
-import interfaces.model.service.ContractService;
-import interfaces.model.service.PaypalService;
+import interfaces.model.services.ContractService;
+import interfaces.model.services.PaypalService;
 
 public class MainContractsProcessing {
 

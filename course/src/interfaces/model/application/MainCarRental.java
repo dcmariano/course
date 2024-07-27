@@ -6,8 +6,8 @@ import java.util.Scanner;
 
 import interfaces.model.entities.CarRental;
 import interfaces.model.entities.Vehicle;
-import interfaces.model.service.BrazilTaxService;
-import interfaces.model.service.RentalService;
+import interfaces.model.services.BrazilTaxService;
+import interfaces.model.services.RentalService;
 
 public class MainCarRental {
 

@@ -2,8 +2,8 @@ package interfaces.model.application;
 
 import java.util.Scanner;
 
-import interfaces.model.service.BrazilInterestService;
-import interfaces.model.service.UsaInterestService;
+import interfaces.model.services.BrazilInterestService;
+import interfaces.model.services.UsaInterestService;
 
 public class MainInterestService {
 

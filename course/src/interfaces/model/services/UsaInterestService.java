@@ -1,12 +1,12 @@
-package interfaces.model.service;
+package interfaces.model.services;
 
 import java.security.InvalidParameterException;
 
-public class BrazilInterestService implements InterestService {
+public class UsaInterestService implements InterestService {
 
 	private Double interestRate;
 
-	public BrazilInterestService(Double interestRate) {
+	public UsaInterestService(Double interestRate) {
 		this.interestRate = interestRate;
 	}
 
