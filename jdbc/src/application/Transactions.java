@@ -28,9 +28,7 @@ public class Transactions {
 				throw new DBException("Fake error");
 			}
 			int rows2 = st.executeUpdate("UPDATE seller SET BaseSalary = 3090 WHERE DepartmentId = 2");
-
-			st.executeUpdate("UPDATE seller SET BaseSalary = 3090 WHERE DepartmentId = 1");
-
+			
 			System.out.println("rows1: " + rows1);
 			System.out.println("rows2: " + rows2);
 
